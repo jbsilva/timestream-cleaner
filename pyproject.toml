@@ -5,4 +5,5 @@ description = "Amazon Timestream Database Table Cleanup Tool"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [{ name = "Julio Batista Silva", email = "python@juliobs.com" }]
+license = { text = "MIT" }
 dependencies = []
