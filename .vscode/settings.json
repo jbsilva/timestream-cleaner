@@ -12,5 +12,6 @@
     },
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
-  "editor.rulers": [100]
+  "editor.rulers": [100],
+  "cSpell.words": ["isort", "loguru", "mypy", "pycache", "pytest", "Timestream", "typer", "venv"]
 }
