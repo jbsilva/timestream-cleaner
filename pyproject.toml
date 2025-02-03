@@ -27,6 +27,11 @@ classifiers = [
 ]
 dependencies = []
 
+[dependency-groups]
+dev = [
+    "ruff>=0.9.4",
+]
+
 [project.urls]
 Homepage = "https://juliobs.com/project/timestream-cleaner"
 Documentation = "https://github.com/jbsilva/timestream-cleaner#readme"
