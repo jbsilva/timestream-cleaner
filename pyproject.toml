@@ -45,3 +45,33 @@ build-backend = "hatchling.build"
 
 [tool.hatch.version]
 path = "src/timestream_cleaner/__init__.py"
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+target-version = "py313"
+fix = true
+unsafe-fixes = false
+
+[tool.ruff.lint.flake8-pytest-style]
+fixture-parentheses = true
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D203", # one-blank-line-before-class
+    "D212", # multi-line-summary-first-line
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"] # Allow assert in tests
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-wrap-aliases = true
+lines-after-imports = 2
