@@ -26,3 +26,10 @@ classifiers = [
     "Topic :: Utilities",
 ]
 dependencies = []
+
+[project.urls]
+Homepage = "https://juliobs.com/project/timestream-cleaner"
+Documentation = "https://github.com/jbsilva/timestream-cleaner#readme"
+Repository = "https://github.com/jbsilva/timestream-cleaner"
+CI = "https://github.com/jbsilva/timestream-cleaner/actions"
+Issues = "https://github.com/jbsilva/timestream-cleaner/issues"
